@@ -1,0 +1,68 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+.insurance-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 100px 0;
+    gap: 5vw;
+    height: 100%;
+    flex-wrap: wrap;
+}
+h1{
+    font-size: 10vh;
+}
+.middle-insurance{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    font-size: 2vh;
+}
+.middle-insurance div{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.right-insurance{
+    flex: 1;
+}
+.insurance-page img{
+    aspect-ratio: 1/1;
+    width: 2vw;
+}
+.right-insurance img{
+    width: 20vw;
+    height: 45vh;
+    border-radius: 5em;
+}
+.insurance-form{
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.insurance-form-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5vh;
+    font-size: 2.5vh;
+}
+.insurance-form img{
+    aspect-ratio: 1/1;
+    width: 2vw;
+}
+.insurance-form-left div{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    align-content: center;
+}
+.insurance-form-right{
+    flex: 1;
+}

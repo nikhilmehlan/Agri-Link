@@ -1,0 +1,156 @@
+/*Scan Page Styles*/
+
+:root {
+    --primary: #1aac83;
+    --error: #e7195a;
+    --scan-subparts-size-height: 50vh;
+    --scan-subparts-size-width: 40vw;
+    --right-overlap-component-height: 35vh;
+    --right-overlap-component-width: 5vw;
+}
+.main-container-scan{
+    
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.scan {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex: 3;
+}
+
+.scan-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box .left {
+    color: #1aac83;
+    background-color: #ffffff;
+    border: 1px solid #1aac83;
+    border-radius: 10px;
+    height: var(--scan-subparts-size-height);
+    width: var(--scan-subparts-size-width);
+
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.box .left .left-left {
+    flex: 1;
+    margin-left: 1vw;
+}
+
+.box .left .left-left img {
+    height: 350px;
+    width: 350px;
+    border-radius: 0.25em;
+}
+
+.box .left .left-right {
+    flex: 1;
+    margin-right: 1vw;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.box .left .left-right span {
+    color: rgba(7, 105, 78, 1);
+}
+
+.box .right {
+    color: #1aac83;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #1aac83;
+    border-radius: 10px;
+
+    height: var(--scan-subparts-size-height);
+    width: var(--scan-subparts-size-width);
+}
+
+.box .right .engulf-right {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    bottom: 0;
+}
+
+.box .right .engulf-right .right-heading {
+    margin: 1vw 0 1vw 0;
+}
+
+.box .right .text-wrapper-1 {
+    font-size: 38px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.box .right .text-wrapper-2 {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.box .overlap-group {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.box .right-left {
+    flex: 1;
+    border-radius: 5px;
+    height: var(--right-overlap-component-height);
+    width: var(--right-overlap-component-width);
+    border: 1px solid #1aac83;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box .right-left .browse-file-icon img {
+    height: 70px;
+    width: 102px;
+}
+
+.box .right-left .browse-file-icon p {
+    font-size: 13px;
+    font-weight: 300;
+}
+.box .right-right {
+    scrollbar-width: thin;
+}
+.box .right-right button {
+    background: var(--primary);
+    border: 0;
+    color: #fff;
+    padding: 10px;
+    font-family: "Poppins";
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.box .right-right {
+    height: var(--right-overlap-component-height);
+    width: var(--right-overlap-component-width);
+    flex: 1;
+    border-radius: 5px;
+    border: 1px solid #1aac83;
+    position: relative;
+    overflow: scroll;
+}

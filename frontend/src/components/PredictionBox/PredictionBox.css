@@ -1,0 +1,42 @@
+/*Prediction View Styles*/
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .prediction-box{
+    border-radius: 4px;
+    height: 60px;
+    width: 1560px;
+    border: 1px solid #1aac83;
+    background-color: #ffffff;
+    color: #1aac83;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .prediction-box .overlap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+    margin: 0;
+  }
+  .prediction-box .heading{
+    font-size: 24px;
+    font-weight: 800;
+  }
+  .prediction-box .text-wrapper{
+    font-size: 20px;
+    font-weight: 600;
+  } 
+  .prediction-box .stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30vw;
+    margin-left: auto;
+  }

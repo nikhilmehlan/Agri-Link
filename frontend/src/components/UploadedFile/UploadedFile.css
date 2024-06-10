@@ -1,0 +1,18 @@
+/*Uploaded file*/
+.uploaded-file{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+  }
+  .uploaded-file img{
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+  }
+  .uploaded-file p{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+  
+  }

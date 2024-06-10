@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.app {
+  width: 80%;
+  margin: auto;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width:1050px) {
+  .app {
+    width: 90%;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  .scan-page{
+    flex-direction: column;
+  }
+
+  .box .left, .box .right{
+    width: 85vw;
+    height: 100% ;
+    flex-direction: column;
+    padding: 10px;
+    gap: 1px;
+  }
+
+  .box .left .left-right {
+    font-size: 1.2em;
+    margin: 0;
+  }
+
+  .box .left .left-left img{
+    height: 80vw;
+    width: 80vw;
+    margin: 0;
+  }
+
+  .right .overlap-group{
+    flex-direction: column;
+    height: 50vh;
+  }
+
+  .right .right-right, .right .right-left{
+    height: 50vh;
+    width:85vw;
+  }
+
+  .prediction-box{
+    width: 90vw;
+    height: 100%;
+  }
+  
+  .prediction-box .overlap{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2vw;
+  }
+
+  .prediction-box .stats{
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+  }
+}

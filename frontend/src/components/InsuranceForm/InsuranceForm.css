@@ -1,0 +1,22 @@
+/* new workout form */
+.create{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+.create button {
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  width: 100%;
+  cursor: pointer;
+}
+.output-buttons{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
