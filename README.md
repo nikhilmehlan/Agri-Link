@@ -1,9 +1,6 @@
 <br/>
 <p align="center">
-  <a href="https://github.com/varnit-ta/AgriLink">
     <img src="frontend/src/assets/logo.png" alt="Logo" height="80">
-  </a>
-
   <h3 align="center">AgriLink</h3>
 
   <p align="center">
@@ -64,11 +61,3 @@ AgriLink revolutionizes agricultural commerce by enabling farmers to bypass midd
 > [!CAUTION]
 > **Caution:** Be cautious when modifying sensitive configuration settings or environment variables, as incorrect changes could lead to security vulnerabilities or data loss.
 
-
-## Acknowledgements
-
-* [Varnit Singh](https://github.com/varnit-ta/)
-* [Nikhil Mehlan](https://github.com/nikhilmehlan)
-* [Ansh Singhal](https://github.com/ansh1331)
-* [Lokesh Maheswari]()
-* [Gautam Arora]()
