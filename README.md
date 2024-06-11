@@ -61,3 +61,6 @@ AgriLink revolutionizes agricultural commerce by enabling farmers to bypass midd
 > [!CAUTION]
 > **Caution:** Be cautious when modifying sensitive configuration settings or environment variables, as incorrect changes could lead to security vulnerabilities or data loss.
 
+## Like this project?
+
+If you found this project helpful or interesting, please give it a star on GitHub! ⭐
