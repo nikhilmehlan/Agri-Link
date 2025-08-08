@@ -27,7 +27,7 @@ AgriLink revolutionizes agricultural commerce by enabling farmers to bypass midd
 ## Getting Started
 
 1. **Clone Repository:** 
-   Clone the AgroInsight repository from GitHub and navigate to the project directory.
+   Clone the AgriLink repository from GitHub and navigate to the project directory.
 
 2. **Install Dependencies:** 
    Navigate to the "Frontend" and "Backend" directories and run `npm install` to install the dependencies.
