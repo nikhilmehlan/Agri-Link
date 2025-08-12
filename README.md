@@ -33,7 +33,7 @@ AgriLink revolutionizes agricultural commerce by enabling farmers to bypass midd
    Navigate to the "Frontend" and "Backend" directories and run `npm install` to install the dependencies.
 
 3. **Set Up Environment:** 
-   Configure environment variables in the `.env` file following the provided template.
+   Configure environment variable in the `.env` file following the provided template.
    - **In the backend:** Add a `MONGO_URI`, `PORT` (assume 5000), and a `SECRET` (for JWT verification).
    - **In the frontend:** Add the `BACKEND_URI` (address and port of the backend server) and `MODEL_URI` (address and port of the python model server).
 
