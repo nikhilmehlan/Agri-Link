@@ -52,7 +52,7 @@ AgriLink revolutionizes agricultural commerce by enabling farmers to bypass midd
 > [!TIP]
 > **Tip:** For the best experience, consider running the project on a modern web browser such as Google Chrome or Mozilla Firefox.
 
-> [!IMPORTANT]
+> [!IMPORTANT ]
 > **Important:** Make sure to set up the environment variables correctly in the `.env` file before starting the backend and frontend servers.
 
 > [!WARNING]
